@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	       <meta  charset ="utf-8"/>
+		   <meta name="viewport" content = " width=device-width">
+		   <title>ISF.org</title>
+		   <link rel="stylesheet" type="text/css" href = "ISF_Home.css"/>
+		
+     </head>
+	 <body id="slider"s>
+	       <section id="first">
+ 
+	       <div class ="logo">
+			         <img src="./Images/logo-main.png">
+				 
+				  
+		          <nav>
+			            <ul>
+						    <li><a href="Home.html">Home</li>
+						    <li><a href="resources.html">Resources</li>
+							<li><a href="studycenters.html">Study Centers</li>
+							<!--<li><a href="blogs&forms.html">Blogs & Forms</li>
+							<li><a href="guides&tips">Guides & Tips</li>-->
+							<li><a href="Register.html">Register</li>
+							<li><a href="About Us.html">About Us</li>
+						</ul>
+			    </nav>
+			</div>
+		
+			 			  
+			  	
+				    
+					       <!-- <div class = "Slides">
+					        <p>Slide1</p>
+			                <img  src="./Images./Slides/Slide1.jpg" height="500" width="1500" >
+					        </div>
+				      
+			               <div class = "Slides">
+					       <p>Slide2</p>
+		                   <img  src="./Images./Slides/Slide2.jpg" height="500" width="1500">
+					       </div>
+					  	
+						
+						 <div class = "Slides">
+					       <p>Slide3</p>
+		                   <img  src="./Images./Slides/Slide3.jpg" height="500" width="1500">
+					       </div>
+					  	
+						 <div class = "Slides">
+					       <p>Slide4</p>
+		                   <img  src="./Images./Slides/Slide4.jpg" height="500" width="1500">
+					       </div>
+					  	
+						 <div class = "Slides">
+					       <p>Slide5</p>
+		                   <img  src="./Images./Slides/Slide5.jpg" height="500" width="1500">
+					       </div>
+					  	
+						 <div class = "Slides">
+					       <p>Slide6</p>
+		                   <img  src="./Images./Slides/Slide6.jpg" height="500" width="1500">
+					       </div>
+					  	 <div class = "Slides">
+					       <p>Slide7</p>
+		                   <img  src="./Images./Slides/Slide7.jpg" height="500" width="1500">
+					       </div>
+						   
+						   <div class = "Slides">
+					       <p>Slide8</p>
+		                   <img  src="./Images./Slides/Slide8.jpg" height="500" width="1500">
+					       </div>
+						   
+						   <div class = "Slides">
+					       <p>Slide9</p>
+		                   <img  src="./Images./Slides/Slide9.jpg" height="500" width="1500">
+					       </div>
+						   
+						   
+					  	
+						
+						
+						
+						
+					<!--	<div class="slides">
+
+
+ <img class="Slides" src="Slide2.jpg">
+  <img class="Slides" src="Slide3.jpg" >
+ <img class="Slides" src="Slide4.jpg" >
+  <img class="Slides" src="Slide5.jpg" >
+   <img class="Slides" src="Slide6.jpg" >
+    <img class="Slides" src="Slide7.jpg" >
+	 <img class="Slides" src="Slide8.jpg" >
+	  <img class="Slides" src="Slide9.jpg" >
+  </div>-->
+  
+<script>
+
+var i=0;
+var img = document.getElementById("slider");
+var imgPath = new Array();
+imgPath[0] ="./Images./Slides/Slide1.jpg";
+imgPath[1] ="./Images./Slides/Slide2.jpg";
+imgPath[2] ="./Images./Slides/Slide3.jpg";
+
+
+
+function swapImage()
+{
+   if(i>=(imgPath.length-1)){
+       i=0;
+	}
+       //document.getElementById("slider").style.background = imgPath[i];
+        //document.getElementById("slider").setAttribute("background",imgPath[i]);
+   i++;
+   
+ }
+ setInterval(swapImage,1000);
+ 
+</script>
+</section>
+
+
+<!--<script>
+
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+						
+						
+						</script>-->
+						
+						
+						<!--<script>
+						
+						
+						
+						
+						
+						<script language="JavaScript">
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "image_1.gif";
+path[1] = "image_2.gif";
+path[2] = "image_3.gif";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<img height="200" name="slide" src="image_1.gif" width="400" />
+
+						</script>-->
+						
+						
+						
+		</body>
+</html>
