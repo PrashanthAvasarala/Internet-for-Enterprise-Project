@@ -1,0 +1,110 @@
+.logo {
+	margin-left : 10px;
+	margin-top : 15px;
+	
+	}
+
+nav {
+	float: right;
+    }
+
+nav ul li {
+	display: inline-block;
+	margin-right: 50px;
+          }
+
+a {
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 110%;
+	letter-spacing: 2px;
+	font-style: italic;
+	font-weight: bold;
+  }
+
+nav ul li a:hover {
+	       color: orange;
+                 }
+
+
+
+.slider {
+	margin-top : 0px;
+	margin-left : 0px;
+	margin-right : 0px;
+	overflow-y : scroll;
+	background: white;
+	
+}
+
+.slides {
+	
+	height: 95%;
+	position: absolute;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+#newsletter{
+	margin-top : 528px;
+	height : 95px;
+	background-color : black ;
+	/*border-style : inset;
+	border-width : thin;*/
+}
+
+footer {
+	clear : both;
+	margin-top : 700px;
+	height : 200px;
+	width : 100%;
+	background-color : #222;
+	float : right;
+	
+}
+
+#footer-content {
+	width : 1200px;
+	margin-bottom : 1px;
+	margin-left : 10px;
+}
+	
+#footer-content h6{
+	font-size : 17px;
+	margin-bottom : 0.5px;
+	text-decoration : underline;
+	color : #FFDEA8;
+	}
+
+#footer-text p {
+	text-align : justify;
+	line-height : 13px;
+	font-size : 15px;
+	width : 350px;
+	color : #FFDEA8;
+}
+
+#socialpic p {
+	     font-size : 17px;
+	     padding-bottom : 5px;
+		 padding-left : 200px;
+		 color : #FFDEA8; }
+		 
+#face:hover{ background-color : #0077B5;
+             border-radius : 5px;
+             }
+
+
+#twit:hover{ background-color : #00ffff;
+             border-radius : 5px;}
+
+#tube:hover{ background-color : #c4302b;
+             border-radius : 5px;}
+#google:hover{ background-color : #cc3300;
+             border-radius : 5px;}
+#link:hover{ background-color : #3333cc ;
+             border-radius : 5px;}

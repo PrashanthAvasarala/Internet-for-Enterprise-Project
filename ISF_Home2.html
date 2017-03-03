@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width=device-width">
+	<title>ISF.org</title>
+	<link rel="stylesheet" type="text/css" href="ISF_Home2.css"/>
+</head>
+
+<body class="slider">
+       <div class = "slides">
+		<div class="logo">
+			<img src="./Images/logo-main.png">
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="resources.html">Resources</a></li>
+					<li><a href="studycenters.html">Study Centers</a></li>
+					<!--<li><a href="blogs&forms.html">Blogs & Forms</li>
+					<li><a href="guides&tips">Guides & Tips</li>-->
+					<li><a href="Register.html">Register</a></li>
+					<li><a href="About Us.html">About Us</a></li>
+				</ul>
+			    </nav>
+			</div>
+		
+			     
+  <script>
+var counter =0;
+swapImage();
+
+function swapImage()
+{
+	var imgs = ["./Images./Slides/Slide1.jpg", "./Images./Slides/Slide2.jpg","./Images./Slides/Slide3.jpg", "./Images./Slides/Slide4.jpg",
+	"./Images./Slides/Slide5.jpg","./Images./Slides/Slide6.jpg", "./Images./Slides/Slide7.jpg", "./Images./Slides/Slide8.jpg", "./Images./Slides/Slide9.jpg"];
+	 
+   if (counter >=imgs.length) {counter = 0}
+     document.getElementsByClassName("slides")[0].style.backgroundImage = 'url(" '+imgs[counter]+' ")';
+	 counter++;
+  
+   setTimeout(swapImage,2000);
+ }
+ 
+</script>
+
+
+           <section id ="newsletter">
+                    <form method ="" action ="">
+                             <table>
+							 <tr>
+							 <td style = "padding : 0px 25px 0px 100px ;"> <p style = " color : #FFDEA8; font-size : 28px;"> Please Subscribe to our New's Letter  </p></td>
+							 <td style = "padding : 5px 5px 0px 5px ;"><input type = "email" placeholder = "username@domain.com" style = "text-align : center ;"/></td>
+							 <td style = "padding : 5px 5px 0px 5px ;"><input type = "text" placeholder = "Country Name"  list = "Country"style = "text-align : center ;"/>
+							 <datalist id="Country">
+							 <option value = "Canada">
+							 <option value = "India">
+							 <option value = "Mexico">
+							 <option value = "Australia">
+							 <option value = "China">
+							 <option value = "Indonesia">
+							 <option value = "Malaysia">
+							 <option value = "Italy">
+							 <option value = "Cambodia">
+							 <option value = "Austria">
+							 </datalist></td>
+							 <td style = "padding : 5px 5px 0px 5px ;"> <input type = "submit" value ="submit" style = "background-color : orange;"/></td>
+							 </tr>
+							 </table>
+							 <!--
+							 1) insert the datalist item in input country textbox refer textbook : (page : 88) !
+							 2) Opacity for footer logo!
+							 3) button color change.
+							 4) size of two textboxes!
+							 
+							 -->
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+							 
+                    </form>
+           </section>
+</div>
+
+   <footer>
+           
+             <table id = "footer-content">
+			  <tr> <td> <img id = "footer-logo" src ="./Images/logo-footer.png" width = "80" height ="80" alt="ISP logo"></td>
+			       <td id = "footer-text" style = "padding-left : 3%;">
+			         <h6>About International Student page</h6>
+			         <p>"..Our vision is to be the company that best recognizes and serves
+       		             the needs of international students around the world.We strive to
+			             provide students world-class resources to help them investigate and
+			             pursue an international education, through relevant content, custom 
+                         online tools and engaging websites that offer only best in class products and services."
+			         </p>
+				    </td>
+				    <td id= "socialpic">
+					      <p> <strong> To connect with us click on the below social media links</strong></p>
+				          <p id="links" style = "padding-left : 225px">
+						  <a href="https://www.facebook.com/" target ="New Window"> <img src="./Images./SocialMedia/Facebook.png" height="50" width="50" alt="Facebook" id="face"> </a>
+						  <a href="https://plus.google.com/" target ="New Window"> <img src="./Images./SocialMedia/GooglePlus.png" height="50" width="50" alt="GooglePlus" id="google"> </a>
+						  <a href="https://www.linkedin.com/uas/login" target ="New Window"> <img src="./Images./SocialMedia/Linkedin.png" height="50" width="50" alt="Linkedin" id="link"> </a>
+						  <a href="https://twitter.com/" target ="New Window"> <img src="./Images./SocialMedia/twitter.png" height="50" width="50" alt="twitter" id="twit"> </a>
+						  <a href="https://www.youtube.com/" target ="New Window"> <img src="./Images./SocialMedia/youtube.png" height="50" width="50" alt="youtube" id="tube"> </a>
+						  </p>
+					      
+					</td> 
+				</tr>
+		     </table> 
+		   
+   </footer>
+   
+     
+   
+</body>
+</html>
